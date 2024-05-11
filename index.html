@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Watch collection</title>
+    <link rel="stylesheet" href="." type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!-- HEAD AND NAV BAR -->
+    <div class="nav_bar">
+     
+      <center>  <h1  style="font-family: sans-serif;color: white;">WATCH SHOPPING</h1></center>
+      <center><label for="sans-serif">Search</label>
+      <input type="box" name="" id=""></center>
+      <hr>
+     <center> <ul>
+        <li> ||<img src="./Assets/images/Pre-Owned-Luxury-Watches-Promo.webp" alt="HOME LOGO" width="20px">    HOME ||</li>
+        <li>||<img src="./Assets/images/contact_logo.jpg" alt="contact" width="20px">CONTACT  ||</li>
+        <li>||<img src="./Assets/images/language_logo.jpg" alt="language" width="20px">LANGUAGE  ||</li>
+       <li>||<img src="./Assets/images/About_us_logo.jpg" alt="ABOUT US" width="20px" id="about">ABOUT US  ||</li>
+        <li>||<img src="./Assets/images/user_account_logo.jpeg"  id ="loginicon"  onclick="openLogin()" alt="login" width="20px" onclick="myFunction()">LOGIN  ||</li>
+        </ul></center>
+      <hr>
+    
+    <div class="product_image">
+        <div class="menswatches"><img src="./Assets/images/Watches_Web.jpg" alt="watch image" width="250px" height="250px"><a href="./mens_watches.html"><h3 style="color: darkblue;background-color:cadetblue" >Mens Watches <s style="background-color: cadetblue;">20%</s>30% OFFER</h3></a></div>
+       <div class="womenswatches"><img src="./Assets/images/OIP (1).jpeg" alt="womens watch" width="250px" height="250px"/><a href="./womens.html"><h3 style="color: darkblue;background-color: cadetblue;">Womens Watches <s style="background-color: cadetblue;">30%</s>40% OFFER</h3></a></div>
+       <div class="smart_watches">
+        <img src="./Assets/images/smart+watches.jpg" alt="smart watches" width="250px" height="250px">
+        <h3 style="color: darkblue;background-color: cadetblue;">Smart Watches BUY 1 GET 1</h3></a></div>
+       </div>
+    </div>
+    <hr>
+    <hr>
+    <center><div class="container" style="background-color: white;"><h1 style="font-family: serif;"><u>Top Brands</u></h1></div></center>
+    
+            <div class="Breitling">Breitling</div>
+            <div class="Audemars Piguet">Audemars Piguet</div>
+            <div class=" Omega">Omega</div>
+            <div class="Blancpain">Blancpain</div>
+            <div class="cartier">cartier</div>
+            <div class="Glashutte ">Glashutte</div>
+            <div class="Longines">Longines</div>
+            <div class="Tag Heuer">Tag Heuer</div>
+            <div class="Casip">Casip</div>
+            <div class="Titan">Titan</div>
+            <div class="Rolex">Rolex</div>
+            <div class="Rado" >Rado</div>
+            <div class="Hublot" >Hublot</div>
+            <div class="Corum"   >Corum</div>
+            <div class="citizen" >citizen</div>
+            <div class="Bulgari" >Bulgari</div>
+            <div class="Tissot" >Tissot</div>
+            <div class="Baume et mercier">Baume et mercier</div>
+        </div>
+        <div class="paragraph_abouta" id="para_about">
+            <center><h1 class="about"><b>ABOUT US</b></h1></center>
+            <p>      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores magnam architecto corporis itaque aut iste laboriosam ratione, consequuntur ipsam in hic dicta alias? Consectetur quae nihil, error beatae pariatur adipisci modi placeat quisquam, iste maxime totam omnis voluptatem iusto magni repudiandae, asperiores quod nemo possimus aspernatur! Recusandae ex ullam necessitatibus. Veniam consequuntur reprehenderit totam quasi sint voluptate blanditiis qui aperiam doloribus, consectetur perspiciatis repellendus soluta placeat, maiores cupiditate. Soluta voluptates laboriosam nihil ipsa, reprehenderit rem. Quos laudantium natus dolores doloremque, temporibus obcaecati perspiciatis sint cupiditate, officia ex consequatur nesciunt sunt odit autem. Laborum laudantium et dignissimos quasi, sint soluta reprehenderit odio a harum asperiores, velit doloribus dicta expedita eos? Voluptates, neque! Aliquam velit at maxime similique doloribus non excepturi neque quidem ratione rerum impedit debitis officia fugit dolor possimus sint ducimus harum, magnam eveniet nihil molestias cum! Provident nam rem aperiam sint. Error mollitia exercitationem voluptatem dolores, qui corporis vero.</p>
+        </div>
+    </div>
+    <div class="contact_inf">
+      <h2 style="color: antiquewhite; text-align: center;"><u>CONTACT</u></h3>
+      <ul class="ph"><h4>Phone number 909876867</h4></ul>
+      <ul  class= " em"> <h4>watchcollection@gmail.com</h4></ul>
+    </div>
+</body>
+<script>
+    function openLogin() {
+  window.location.href = "login.html";
+}
+ const about = document.getElementById(about)
+ const aboutdiv = document.getElementById(para_about)
+
+ about.addEventListener ('click',function(){
+    aboutdiv.style.display =  (aboutdiv.style.display==='')?'block' : 'none';
+ 
+});
+const aboutLink = document.getElementById('about'); // Select the About link element
+const aboutSection = document.getElementById('para_about'); // Select the About Us section element
+
+aboutLink.addEventListener('click', function() {
+  // Smoothly scroll to the About Us section when the About link is clicked
+  aboutSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+</script>
+</html>

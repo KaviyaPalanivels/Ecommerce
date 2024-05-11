@@ -1,0 +1,293 @@
+.bg_img{
+    opacity: 0.2;
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.nav_bar{
+    position: relative;
+}
+
+/* *{
+    .demo-wrap {
+        overflow: hidden;
+        position: relative;
+      }
+
+} */
+
+input{
+    padding: 10px;
+    border: 5px;
+    border-style: double;
+    padding-right: 5px;
+    background-color: white;
+
+}
+body{
+background-color: black;
+position:sticky;
+/* background-image: url(./Assets/images/bacground-images_flex.jpg);
+background-repeat:no-repeat;
+position: fixed;
+background-position: center; */
+}
+label{
+color: wheat;
+}
+ul,li{
+color: white;
+display: inline;
+padding: 10px;
+margin: 25px;
+padding-right: 20px;
+text-align: center;
+
+}
+li:hover{
+color: black;
+background-color: white;
+cursor: pointer;
+}
+.product_image{
+margin: 20px;
+text-align: center;
+display: flex; 
+justify-content: center;
+}
+.menswatches,.womenswatches,.smart_watches{
+    padding: 10px;
+    border: 5px;
+    border-style: double;
+    padding-right: 5px;
+    background-color: white;
+    width:300px ;
+    height: 300px;
+    margin-right:auto;
+
+}
+
+
+.Breitling{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color:aqua;
+color:white;
+}
+.Audemars{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color:aqua;
+color: white;
+
+}
+.Omega{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color:aqua;
+color: white;
+}
+.Blancpain{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color: white;
+
+}
+.cartier{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color: white;
+}
+.Glashutte{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color: white;
+}
+.Longines{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color: white;
+
+}
+.Tag{
+border: 1px;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;ID
+color:white;
+}
+.Casip{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color: white;
+}
+.Titan{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color:white;
+
+
+}
+.Rolex{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color: white;
+
+}
+.Rado{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color:white;
+
+}
+.Hublot{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color:white;
+
+}
+.Corum{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color: white;
+
+}
+.citizen{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color:white;
+}
+.Bulgari{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color: white;
+
+}
+.Tissot{
+border: 1px;
+border-color: black;
+border-style:dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color:white;
+
+}
+.Baume{
+border: 1px;
+border-color: black;
+border-style: dashed;
+display: inline-block;
+padding-top: 10px;
+margin: 10px 5px;
+border-color: aqua;
+color:white;
+}
+.container{
+background-color:black;
+color:black;
+text-align: center;
+}
+.paragraph_abouta{
+color: whitesmoke;
+border: 3px; 
+border-color:cadetblue;
+border-style:double;  
+margin: 30px;
+}
+.contact_inf{
+    border-color:cadetblue;
+    border-style:double;  
+    margin: 30px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
